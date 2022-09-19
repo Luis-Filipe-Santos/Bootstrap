@@ -87,9 +87,19 @@ $( document ).ready(function() {
             circleB.animate(1.0);
             circleC.animate(1.0);
             circleD.animate(1.0);
-            
+           
+            stop = 1;
+
         }
 
-    })
+    });
+
+    // Parallax
+
+    setTimeout(function(){
+
+        $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'})
+
+    }, 250);
 
 });
