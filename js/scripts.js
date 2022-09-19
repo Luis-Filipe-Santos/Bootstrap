@@ -83,12 +83,13 @@ $( document ).ready(function() {
 
         if(scroll > (dataAreaOffset.top - 500) && stop == 0) {
             
+            circleA.animate(1.0);
+            circleB.animate(1.0);
+            circleC.animate(1.0);
+            circleD.animate(1.0);
+            
         }
 
     })
 
-    circleA.animate(1.0);
-    circleB.animate(1.0);
-    circleC.animate(1.0);
-    circleD.animate(1.0);
 });
