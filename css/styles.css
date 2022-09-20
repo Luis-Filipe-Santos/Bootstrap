@@ -226,5 +226,13 @@ header, .navbar {
     height: auto;
     width: 180px;
     margin-left: auto;
-    ma
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+#apply-btn:hover{
+    border-color: #65daf9;
+    background-color: #65daf9;
 }
